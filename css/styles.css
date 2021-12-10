@@ -33,6 +33,14 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
+#CV{
+	color:white;
+	margin-left: 14px;
+	margin-top:45px;
+}
+#CV:hover{
+	color:#0b36a8;
+}
 body,
 html {
     width: 100%;
@@ -98,7 +106,9 @@ h6 {
 	line-height: 1.375rem;
 	font-family: "Poppins"
 }
-
+.contact{
+	color:green;
+}
 .p-large {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
@@ -107,6 +117,7 @@ h6 {
 .p-small {
 	font-size: 0.875rem;
 	line-height: 1.5rem;
+	c
 }
 
 .testimonial-text {
@@ -134,6 +145,7 @@ a:hover {
 }
 
 .no-line {
+	
 	text-decoration: none;
 }
 
@@ -503,7 +515,7 @@ input[type='checkbox'] {
 }
 
 .navbar .fa-stack-1x {
-	color: #ffffff;
+	color: black;
 	transition: all 0.2s ease;
 }
 
@@ -1125,6 +1137,9 @@ a:hover.back-to-top {
 
 	.navbar .social-icons {
 		margin-left: 0.5rem;
+	}
+	.social-container{
+		margin-bottom: 30px;
 	}
 	
 	.navbar .fa-stack {
